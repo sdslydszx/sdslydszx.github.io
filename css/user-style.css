@@ -1,0 +1,499 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "Microsoft Jhenghei", sans-serif;
+}
+
+.logo path {
+    pointer-events: none;
+    fill: none;
+    stroke-linecap: round;
+    stroke-width: 7;
+    stroke: rgb(255, 255, 255);
+}
+
+.wechat-group img {
+    max-width: 220px;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 100%;
+}
+
+.welcome-img img {
+    width: 100%;
+}
+
+#header:not(.sticky-header) #logo a {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#myalert {
+    display: none;
+}
+
+.recruit .block1 {
+    height: auto;
+}
+
+.layer-1 {
+    background-image: url("/Public/static/themes/image/con_mask.png");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+}
+
+.layer-1 .myalert {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+    position: absolute;
+    margin-top: -100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -145px;
+    text-align: center;
+    z-index: 100000;
+}
+
+.layer-1 .guan {
+    background-image: url("/Public/static/themes/image/clos.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    display: block;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.layer-1 .text {
+    padding-bottom: 15px;
+    font-size: 16px;
+    color: rgb(71, 71, 71);
+}
+
+.layer-1 .button {
+    background-image: none;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(187, 187, 187);
+    border-right-color: rgb(187, 187, 187);
+    border-bottom-color: rgb(187, 187, 187);
+    border-left-color: rgb(187, 187, 187);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    width: 91px;
+    height: 29px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 100%;
+    font-family: "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;
+    color: rgb(112, 112, 112);
+}
+
+.home7 .d1 {
+    background-image: url("/Uploads/Picture/2021/07/19/s60f52066b955c.jpg");
+}
+
+#d1 {
+    background-image: url("/Uploads/Picture/2019/12/20/s5dfc40dc928fb.jpg");
+}
+
+#d2 {
+    background-image: url("/Uploads/Picture/2021/05/21/s60a75ab53e031.jpg");
+}
+
+#d5 {
+    background-image: url("/Uploads/Picture/2019/12/18/s5dfa062371400.jpg");
+}
+
+#d6 {
+    background-image: url("/Uploads/Picture/2019/12/18/s5dfa063869f70.jpg");
+}
+
+#navr {
+    background-image: url("/Uploads/Picture/2019/12/27/s5e05b78d5263f.jpg");
+}
+
+.c10323 {
+    cursor: pointer;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.c13588 {
+    cursor: default;
+}
+
+.c13666 {
+    cursor: default;
+}
+
+.c13742 {
+    cursor: default;
+}
+
+.c13818 {
+    cursor: default;
+}
+
+.c13542 {
+    background-image: url(/Uploads/Picture/2023/08/01/s64c8d4632c2e1.jpg);
+}
+
+.c13622 {
+    background-image: url(/Uploads/Picture/2023/07/23/s64bceb6ef29b5.jpg);
+}
+
+.c13698 {
+    background-image: url(/Uploads/Picture/2023/07/24/s64be24631a700.jpg);
+}
+
+.c13774 {
+    background-image: url(/Uploads/Picture/2023/07/20/s64b8a98abc9c2.jpg);
+}
+
+.c13850 {
+    background-image: url(/Uploads/Picture/2023/07/05/s64a56a0965c20.jpg);
+}
+
+.c13917 {
+    background-image: url(/Uploads/Picture/2023/07/20/s64b8a7b595f02.jpg);
+}
+
+.c16878 {
+    background-image: url(/Uploads/Picture/2019/12/03/s5de58ada3ef15.jpg);
+}
+
+.c16973 {
+    background-image: url(/Uploads/Picture/2019/12/03/s5de58b3611072.jpg);
+}
+
+.c17047 {
+    background-image: url(/Uploads/Picture/2019/12/03/s5de58b7aaab99.jpg);
+}
+
+.c17121 {
+    background-image: url(/Uploads/Picture/2019/12/03/s5de58bbebf671.jpg);
+}
+
+.c17717 {
+    stroke-dasharray: 140, 142;
+    stroke-dashoffset: 0;
+}
+
+.c17727 {
+    stroke-dasharray: 36, 38;
+    stroke-dashoffset: 0;
+}
+
+.c17736 {
+    stroke-dasharray: 102, 104;
+    stroke-dashoffset: 0;
+}
+
+.c17745 {
+    stroke-dasharray: 45, 47;
+    stroke-dashoffset: 0;
+}
+
+.c17950 {
+    stroke-dasharray: 83, 85;
+    stroke-dashoffset: 0;
+}
+
+.c17959 {
+    stroke-dasharray: 77, 79;
+    stroke-dashoffset: 0;
+}
+
+.c17968 {
+    stroke-dasharray: 77, 79;
+    stroke-dashoffset: 0;
+}
+
+.c17977 {
+    stroke-dasharray: 83, 85;
+    stroke-dashoffset: 0;
+}
+
+.c18772 {
+    min-height: 30px;
+    min-width: 20px;
+}
+
+.c20330 {
+    cursor: default;
+}
+
+.c20377 {
+    cursor: default;
+}
+
+.c20424 {
+    cursor: default;
+}
+
+.c20471 {
+    cursor: default;
+}
+
+.c21594 {
+    display: none;
+}
+
+.c21685 {
+    display: none;
+}
+
+.c21775 {
+    display: none;
+}
+
+.c21865 {
+    display: none;
+}
+
+.c21955 {
+    display: none;
+}
+
+.c22045 {
+    display: none;
+}
+
+.c22135 {
+    display: none;
+}
+
+.c22225 {
+    display: none;
+}
+
+.c22315 {
+    display: none;
+}
+
+.c22405 {
+    display: none;
+}
+
+.c22495 {
+    display: none;
+}
+
+.c22585 {
+    display: none;
+}
+
+.c22675 {
+    display: none;
+}
+
+.c22765 {
+    display: none;
+}
+
+.c22855 {
+    display: none;
+}
+
+.c22945 {
+    display: none;
+}
+
+.c23035 {
+    display: none;
+}
+
+.c23125 {
+    display: none;
+}
+
+.c23215 {
+    display: none;
+}
+
+.c23305 {
+    display: none;
+}
+
+.c23395 {
+    display: none;
+}
+
+.c23485 {
+    display: none;
+}
+
+.c23575 {
+    display: none;
+}
+
+.c23665 {
+    display: none;
+}
+
+.c23755 {
+    display: none;
+}
+
+.c23845 {
+    display: none;
+}
+
+.c23935 {
+    display: none;
+}
+
+.c24025 {
+    display: none;
+}
+
+.c24115 {
+    display: none;
+}
+
+.c24475 {
+    display: none;
+}
+
+.c24585 {
+    display: none;
+}
+
+.c24695 {
+    display: none;
+}
+
+.c24805 {
+    display: none;
+}
+
+.c24915 {
+    display: none;
+}
+
+.c25025 {
+    display: none;
+}
+
+.c25135 {
+    display: none;
+}
+
+.c25245 {
+    display: none;
+}
+
+.c25355 {
+    display: none;
+}
+
+.c25465 {
+    display: none;
+}
+
+.c25575 {
+    display: none;
+}
+
+.c25685 {
+    display: none;
+}
+
+.c25795 {
+    display: none;
+}
+
+.c25905 {
+    display: none;
+}
+
+.c26015 {
+    display: none;
+}
+
+.c26336 {
+    min-height: 10px;
+}
